@@ -14,5 +14,5 @@ position = Vector2(573, 638)
 shape = SubResource("RectangleShape2D_igcol")
 
 [node name="Player" parent="." instance=ExtResource("1_tsnpt")]
-position = Vector2(-70, 614)
+position = Vector2(517, 484)
 scale = Vector2(0.560002, 0.560002)
