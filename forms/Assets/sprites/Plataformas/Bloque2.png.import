@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://csx24o8gth487"
-path="res://.godot/imported/Buble.S.png-1f04f23a1be3c2940c82536d3aa8ac26.ctex"
+uid="uid://bqopmqej1yll8"
+path="res://.godot/imported/Bloque2.png-3ddff86bda862ad834587f2c674d6249.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/Recolectables/Buble.S.png"
-dest_files=["res://.godot/imported/Buble.S.png-1f04f23a1be3c2940c82536d3aa8ac26.ctex"]
+source_file="res://Assets/sprites/Plataformas/Bloque2.png"
+dest_files=["res://.godot/imported/Bloque2.png-3ddff86bda862ad834587f2c674d6249.ctex"]
 
 [params]
 

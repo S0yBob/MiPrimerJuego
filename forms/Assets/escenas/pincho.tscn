@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cr06bpwvjhako"]
+
+[ext_resource type="Texture2D" uid="uid://dndkt218w7hw3" path="res://Assets/sprites/Enemigos/Pinche.png" id="1_ibinj"]
+[ext_resource type="Script" path="res://Assets/escenas/pincho.gd" id="1_y64jv"]
+
+[node name="Pincho" type="Area2D" groups=["Enemigo"]]
+script = ExtResource("1_y64jv")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+visible = false
+polygon = PackedVector2Array(0, -37, 37, 37, -38, 37)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ibinj")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

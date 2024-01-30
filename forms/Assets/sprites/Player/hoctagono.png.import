@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dtkl32txheqf2"
-path="res://.godot/imported/Buble.H.png-b37289a28d64eeedfd2cf24b34160ca9.ctex"
+uid="uid://m2nvwp4xp62t"
+path="res://.godot/imported/hoctagono.png-1267f054746191a8e68aa2f48128d637.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/Recolectables/Buble.H.png"
-dest_files=["res://.godot/imported/Buble.H.png-b37289a28d64eeedfd2cf24b34160ca9.ctex"]
+source_file="res://Assets/sprites/Player/hoctagono.png"
+dest_files=["res://.godot/imported/hoctagono.png-1267f054746191a8e68aa2f48128d637.ctex"]
 
 [params]
 

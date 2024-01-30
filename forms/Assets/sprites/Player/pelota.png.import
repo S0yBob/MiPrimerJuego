@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://t4vdnslc4gom"
-path="res://.godot/imported/partes del mapa_#path6142.png-bf51315022f0c6df83a12310d0661a23.ctex"
+uid="uid://b1230mhrmh1q5"
+path="res://.godot/imported/pelota.png-bdfdb711bcb8615d2da2af8c1e6f9bc2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/Plataformas/partes del mapa_#path6142.png"
-dest_files=["res://.godot/imported/partes del mapa_#path6142.png-bf51315022f0c6df83a12310d0661a23.ctex"]
+source_file="res://Assets/sprites/Player/pelota.png"
+dest_files=["res://.godot/imported/pelota.png-bdfdb711bcb8615d2da2af8c1e6f9bc2.ctex"]
 
 [params]
 

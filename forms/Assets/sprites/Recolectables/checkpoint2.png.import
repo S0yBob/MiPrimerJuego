@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bfhtfs2nx0mru"
-path="res://.godot/imported/Player}_#g1967.png-94a384736f4f9c88554acc770bb4673a.ctex"
+uid="uid://ddq46tx670hcj"
+path="res://.godot/imported/checkpoint2.png-7f57d543876a1ac85eac44a99e50d190.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/Player/Player}_#g1967.png"
-dest_files=["res://.godot/imported/Player}_#g1967.png-94a384736f4f9c88554acc770bb4673a.ctex"]
+source_file="res://Assets/sprites/Recolectables/checkpoint2.png"
+dest_files=["res://.godot/imported/checkpoint2.png-7f57d543876a1ac85eac44a99e50d190.ctex"]
 
 [params]
 

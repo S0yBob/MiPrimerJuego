@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://rhfb5tuga5c2"]
+[gd_scene load_steps=12 format=3 uid="uid://rhfb5tuga5c2"]
 
 [ext_resource type="Script" path="res://Assets/escenas/Player.gd" id="1_tnvqs"]
 [ext_resource type="Texture2D" uid="uid://b1230mhrmh1q5" path="res://Assets/sprites/Player/pelota.png" id="2_w461t"]
@@ -332,31 +332,147 @@ tracks/7/keys = {
 "values": [true]
 }
 
-[sub_resource type="Animation" id="Animation_hbw4u"]
-resource_name = "Daño"
+[sub_resource type="Animation" id="Animation_jtnx5"]
+length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("P_Sprite:modulate")
+tracks/0/path = NodePath("CollisionShape2D:shape")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
-"update": 0,
-"values": [Color(1, 1, 1, 1), Color(0.784314, 0.784314, 0.784314, 0.588235), Color(1, 1, 1, 1), Color(0.784314, 0.784314, 0.784314, 0.588235), Color(1, 1, 1, 1), Color(0.784314, 0.784314, 0.784314, 0.588235), Color(1, 1, 1, 1), Color(0.784314, 0.784314, 0.784314, 0.588235), Color(1, 1, 1, 1), Color(0.784314, 0.784314, 0.784314, 0.588235), Color(1, 1, 1, 1)]
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [SubResource("CircleShape2D_qp1xl")]
 }
-
-[sub_resource type="Animation" id="Animation_gt21e"]
-length = 0.001
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("P_Sprite:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("2_w461t")]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("P_Sprite:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("CollisionShape2D:shape:size")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(99.9504, 99.9505)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("CollisionShape2D:scale")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("CollisionShape2D:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("CollisionPolygon2D:disabled")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("trepar/hoctagono:disabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("CollisionPolygon2D:visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("trepar/hoctagono:visible")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("trepar/cubo:disabled")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_x5q1m"]
 _data = {
 "C.Hoctagono": SubResource("Animation_uapgk"),
 "C_cubo": SubResource("Animation_r7y7e"),
 "C_pelota": SubResource("Animation_hi1hk"),
-"Daño": SubResource("Animation_hbw4u"),
-"RESET": SubResource("Animation_gt21e")
+"RESET": SubResource("Animation_jtnx5")
 }
 
 [node name="Player" type="CharacterBody2D" groups=["player"]]
@@ -364,26 +480,28 @@ position = Vector2(21, 99)
 scale = Vector2(0.720357, 0.720357)
 script = ExtResource("1_tnvqs")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1.3882, 4.76837e-06)
-shape = SubResource("CircleShape2D_qp1xl")
-
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-visible = false
-z_index = 1
-polygon = PackedVector2Array(-26.3758, -49.9752, 24.9876, -49.9752, 49.9752, -24.9876, 49.9752, 24.9876, 24.9876, 49.9752, -24.9876, 49.9752, -49.9752, 23.5994, -49.9752, -27.764)
-disabled = true
-
 [node name="P_Sprite" type="Sprite2D" parent="."]
 z_index = 1
-position = Vector2(0.0247841, 0.0247803)
-scale = Vector2(1, 1)
+position = Vector2(0.0247817, 0.0247813)
 texture = ExtResource("2_w461t")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-1.3882, 4.76837e-06)
+shape = SubResource("CircleShape2D_qp1xl")
+disabled = true
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+z_index = 1
+scale = Vector2(1, 1)
+polygon = PackedVector2Array(-26.3758, -49.9752, 24.9876, -49.9752, 49.9752, -24.9876, 49.9752, 24.9876, 24.9876, 49.9752, -24.9876, 49.9752, -49.9752, 23.5994, -49.9752, -27.764)
+disabled = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
 "": SubResource("AnimationLibrary_x5q1m")
 }
+autoplay = "C_pelota"
 
 [node name="Timers" type="Node" parent="."]
 
@@ -392,28 +510,23 @@ one_shot = true
 
 [node name="cambio" type="Timer" parent="Timers"]
 
-[node name="daño" type="Timer" parent="Timers"]
-one_shot = true
-
 [node name="trepar" type="Area2D" parent="."]
-visible = false
 position = Vector2(-1.3882, 5.5528)
+scale = Vector2(1, 1)
 
 [node name="hoctagono" type="CollisionPolygon2D" parent="trepar"]
 visible = false
 position = Vector2(1.3882, -5.55279)
 scale = Vector2(1.065, 1.065)
 polygon = PackedVector2Array(-26.3758, -49.9752, 24.9876, -49.9752, 49.9752, -24.9876, 49.9752, 24.9876, 24.9876, 49.9752, -24.9876, 49.9752, -49.9752, 23.5994, -49.9752, -27.764)
-disabled = true
 
 [node name="cubo" type="CollisionPolygon2D" parent="trepar"]
+visible = false
 position = Vector2(1.3882, -5.55279)
 scale = Vector2(1.065, 1.065)
 polygon = PackedVector2Array(52.139, -49.532, 52.139, 49.532, -50.8355, 49.532, -50.8355, -49.532)
-disabled = true
 
 [connection signal="timeout" from="Timers/Dash" to="." method="_on_dash_timeout"]
 [connection signal="timeout" from="Timers/cambio" to="." method="_on_cambio_timeout"]
-[connection signal="timeout" from="Timers/daño" to="." method="_on_daño_timeout"]
 [connection signal="body_entered" from="trepar" to="." method="_on_trepar_body_entered"]
 [connection signal="body_exited" from="trepar" to="." method="_on_trepar_body_exited"]

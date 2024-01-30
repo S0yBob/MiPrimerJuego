@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://dl46pvue2omjd"]
+
+[ext_resource type="Script" path="res://Assets/escenas/Checkpoint.gd" id="1_2gvdo"]
+[ext_resource type="Texture2D" uid="uid://ddq46tx670hcj" path="res://Assets/sprites/Recolectables/checkpoint2.png" id="2_qcw8w"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_34tao"]
+size = Vector2(58, 24)
+
+[node name="checkpoint" type="Area2D"]
+script = ExtResource("1_2gvdo")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_qcw8w")
+hframes = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, -21)
+shape = SubResource("RectangleShape2D_34tao")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(-51, -9, -77, 13, 76, 13, 50, -9)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

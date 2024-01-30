@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dl64iyg4k6km1"
-path="res://.godot/imported/Player}_#g1951.png-0a7ea2f031d8e2debf232eef3a259635.ctex"
+uid="uid://ctjgb243765o2"
+path="res://.godot/imported/Burbujas.png-8d1f1cef8490da64e26f14129750b14d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/Player/Player}_#g1951.png"
-dest_files=["res://.godot/imported/Player}_#g1951.png-0a7ea2f031d8e2debf232eef3a259635.ctex"]
+source_file="res://Assets/sprites/Recolectables/Burbujas.png"
+dest_files=["res://.godot/imported/Burbujas.png-8d1f1cef8490da64e26f14129750b14d.ctex"]
 
 [params]
 

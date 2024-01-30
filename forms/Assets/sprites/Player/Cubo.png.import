@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1g55qcvqjjwl"
-path="res://.godot/imported/partes del mapa_#rect4403-3.png-225d6ae38d3a8e2a9953aa055ec36a8d.ctex"
+uid="uid://cvphvjn0117g2"
+path="res://.godot/imported/Cubo.png-d5453009b3cf260c55537aff5b7bb1f9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/Plataformas/partes del mapa_#rect4403-3.png"
-dest_files=["res://.godot/imported/partes del mapa_#rect4403-3.png-225d6ae38d3a8e2a9953aa055ec36a8d.ctex"]
+source_file="res://Assets/sprites/Player/Cubo.png"
+dest_files=["res://.godot/imported/Cubo.png-d5453009b3cf260c55537aff5b7bb1f9.ctex"]
 
 [params]
 
